@@ -26,9 +26,9 @@ body, html {
 }
 
 body {
-    background: #4e88c6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4e88c6, #4e88c6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4e88c6, #4e88c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #667799 ;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667799, #667799);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667799, #667799); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     animation: fade 3s forwards ease;
 }

@@ -56,11 +56,11 @@ var pJS = function(tag_id, params){
           }
         },
         size: {
-          value: 15,
+          value: 20,
           random: false,
           anim: {
             enable: false,
-            speed: 15,
+            speed: 20,
             size_min: 0,
             sync: false
           }
