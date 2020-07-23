@@ -21,7 +21,7 @@ var pJS = function(tag_id, params){
       },
       particles: {
         number: {
-          value: 200,
+          value: 300,
           density: {
             enable: true,
             value_area: 600
@@ -37,12 +37,12 @@ var pJS = function(tag_id, params){
             color: '#ff0000'
           },
           polygon: {
-            nb_sides: 4
+            nb_sides: 5
           },
           image: {
             src: '',
-            width: 100,
-            height: 100
+            width: 80,
+            height: 80
           }
         },
         opacity: {
@@ -110,7 +110,7 @@ var pJS = function(tag_id, params){
           },
           bubble:{
             distance: 200,
-            size: 55,
+            size: 80,
             duration: 0.4
           },
           repulse:{
@@ -118,7 +118,7 @@ var pJS = function(tag_id, params){
             duration: 0.4
           },
           push:{
-            particles_nb: 3
+            particles_nb: 4
           },
           remove:{
             particles_nb: 2

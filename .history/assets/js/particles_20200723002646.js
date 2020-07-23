@@ -37,7 +37,7 @@ var pJS = function(tag_id, params){
             color: '#ff0000'
           },
           polygon: {
-            nb_sides: 4
+            nb_sides: 5
           },
           image: {
             src: '',
@@ -118,7 +118,7 @@ var pJS = function(tag_id, params){
             duration: 0.4
           },
           push:{
-            particles_nb: 3
+            particles_nb: 4
           },
           remove:{
             particles_nb: 2
