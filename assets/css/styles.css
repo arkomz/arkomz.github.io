@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes expand {
+    from {
+        left: 0;
+        width: 1%;
+    }
+    to {
+        width: 50%;
+        left: 128px;
+    }
+}
+
+body, html {
+	height: 100%;
+  overflow: hidden;
+}
+
+body {
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    animation: fade 3s forwards ease;
+}
+
+.container {
+	display: flex;  
+    width: 100%;
+	justify-content: center; 
+    align-items: center;
+}
+
+.my-container {
+    margin: 3%;
+    margin-left: 0; 
+    margin-right: 0;
+}
+
+.wrapper {
+    display: flex;
+    margin: 1%;
+    margin-top: 0;
+    height: 50px;
+    width: 50px;
+    padding: 0.5%;
+    border: solid 2px white; 
+    border-radius: 50%;
+    transition: 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.my-link {
+    color: white; 
+    text-decoration: none;
+    transition: 0.5s ease; 
+}
+
+#me {
+    width: 25%;
+    border-radius: 5%;
+    margin: 0 auto; 
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s ease;
+    z-index: 1;
+}
+
+#me:hover {
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+#title span {
+    font-weight: bold;
+}
+
+#title {
+	color: white; 
+	font-size: 36pt; 
+	font-family: 'Raleway'; 
+	margin-top: 5%;
+    text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    transition: text-shadow 0.3s ease;
+    cursor: default;
+}
+
+#title:hover {
+    text-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
+}
+
+#particles-js {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+  z-index: 0;
+}
+
+div {
+  z-index: 1;
+}
